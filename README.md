@@ -42,5 +42,5 @@ No build tools or installation needed.
 🧪 Tech Used
 
 HTML5
-CSS3 (Flexbox, Media Queries)
-JavaScript (Vanilla)
+CSS3 
+JavaScript 
