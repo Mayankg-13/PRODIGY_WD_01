@@ -1,0 +1,79 @@
+/* Reset & base styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #2196f3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: background 0.3s, box-shadow 0.3s;
+  z-index: 999;
+}
+
+#navbar ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar a {
+  color: white;
+  font-weight: 500;
+}
+
+#navbar a:hover {
+  color: #ffe082;
+}
+
+/* Scroll effect */
+#navbar.scrolled {
+  background: #0d47a1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Hero section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #2196f3, #21cbf3);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background: #0d47a1;
+  color: white;
+}
